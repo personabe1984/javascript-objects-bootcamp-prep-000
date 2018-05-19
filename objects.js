@@ -7,10 +7,10 @@ var mealsC = new Object({
 });
 
 
-var playList = {
+var playList = new Object({
   Eminem: 'lose yourself',
   Tupac: 'ghetto gospel'
-};
+});
 
 function updatePlaylist(obj, key, val){
   return Object.assign({}, obj, {[key]:val});
