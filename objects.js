@@ -7,7 +7,7 @@ var mealsC = new Object({
 });
 
 
-var playList = new Object({
+var playlist = new Object({
   Eminem: 'lose yourself',
   Tupac: 'ghetto gospel'
 });
