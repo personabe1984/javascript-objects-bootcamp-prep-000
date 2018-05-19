@@ -8,7 +8,8 @@ var mealsC = new Object({
 
 
 var playList = {
-  Eminem: '',
+  Eminem: 'lose yourself',
+  Tupac: ''
   
 };
 
