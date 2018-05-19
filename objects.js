@@ -12,8 +12,8 @@ var playlist = new Object({
   Tupac: 'ghetto gospel'
 });
 
-function updatePlaylist(obj, key, val){
-  return Object.assign({}, obj, {[key]:val});
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle;
 }
 
 function removeFromPlaylist(obj, key){
