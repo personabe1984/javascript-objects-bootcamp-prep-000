@@ -9,7 +9,13 @@ var mealsC = new Object({
 
 var playList = {
   Eminem: 'lose yourself',
-  Tupac: ''
-  
+  Tupac: 'ghetto gospel'
 };
 
+function updatePlaylist(obj, key, val){
+  return Object.assign({}, obj, {[key]:val});
+}
+
+function removeFromPlaylist(obj, key){
+  return delete obj.key; 
+}
