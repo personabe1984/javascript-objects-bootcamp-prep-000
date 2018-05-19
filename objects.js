@@ -16,6 +16,6 @@ function updatePlaylist(playlist, artistName, songTitle){
   playlist[artistName] = songTitle;
 }
 
-function removeFromPlaylist(obj, key){
-  return delete obj.key; 
+function removeFromPlaylist(playlist, artistName){
+  delete playlist.artistName;
 }
